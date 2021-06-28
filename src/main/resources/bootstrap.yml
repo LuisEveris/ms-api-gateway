@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
+  application:
+    name: ms-api-gateway
+server:
+  port: 9191
