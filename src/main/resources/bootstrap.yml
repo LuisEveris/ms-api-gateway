@@ -1,9 +1,12 @@
 spring:
   cloud:
     config:
-      enabled: true
-      uri: http://localhost:8888
+      uri: https://lel-config-server.azurewebsites.net:443
   application:
     name: ms-api-gateway
 server:
   port: 9191
+eureka:
+  client:
+    service-url:
+      defaultZone: https://lel-eureka-server.azurewebsites.net:443/eureka
