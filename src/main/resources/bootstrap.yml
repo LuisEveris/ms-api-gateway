@@ -10,3 +10,6 @@ eureka:
   client:
     service-url:
       defaultZone: https://lel-eureka-server.azurewebsites.net:443/eureka
+hystrix:
+  metrics:
+    polling-interval-ms: 20000
